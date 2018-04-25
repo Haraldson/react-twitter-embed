@@ -24,5 +24,5 @@ export default class TwitterTweetEmbed extends Component {
         }
     }
 
-    render() = () => <div ref={el => { this.embedContainer = el }} className="embedded-tweet" />
+    render = () => <div ref={el => { this.embedContainer = el }} className="embedded-tweet" />
 }
